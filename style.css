@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +9,11 @@
 body{
     position: relative;
     background: #181818;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    cursor: pointer;
 }
 
 nav{
@@ -23,9 +30,20 @@ nav{
 }
 
 .logo{
-    width: 250px;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
     height: 100%;
+}
+
+span{
+    display: flex;
+    color: #fff;
+    font-size: 12px;
+    justify-content: space-between;
+    width: 100px;
+    align-items: center;
+    height: 85%;
 }
 
 .logo button{
@@ -37,10 +55,41 @@ nav{
     color: #fff;
 }
 
+.logo img{
+    height: 60%;
+}
+
 .searchbar{
+    position: relative;
+    display: flex;
     width: 600px;
-    border: 1px solid blue;
     height: 100%;
+}
+
+.searchbar button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80px;
+    border: none;
+    background: #3d3d3d;
+    color: #80aaaaaa;
+    transition: .2s ease-in-out;
+}
+
+.searchbar button:hover{
+    color: #fff;
+}
+
+.searchbar input{
+    border: none;
+    background: #181818;
+    color: #aaaaaa;
+    padding-left: 10px;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
 }
 
 .variousBtns{
@@ -66,8 +115,4 @@ aside{
     width: calc(100% - 821px);
     height: 1000px;
     border: 1px solid purple;
-}
-
-video{
-
 }
