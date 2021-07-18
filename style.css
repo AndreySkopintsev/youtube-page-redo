@@ -258,11 +258,22 @@ h1{
 .circleCheck{
     height: 14px;
 }
+.subscribe{
+    display: flex;
+    align-items: center;
+    height:50%;
+    width: 180px; 
+}
+
+.far.fa-bell{
+    margin-left: 15px;
+    height: 100%;
+}
 
 .subscribe-btn{
     color: #fff;
     width: 150px;
-    height: 50%;
+    height: 100%;
     margin-left: auto;
     border-radius: 2px;
     font-size: 18px;
