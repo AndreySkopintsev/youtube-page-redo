@@ -135,7 +135,7 @@ section{
     width: 731px;
     height: 1000px;
 }
-
+/* First row under video (like/dislike buttons, share etc.)*/
 .video-btns{
     display: flex;
     width: 100%;
@@ -221,7 +221,59 @@ h1{
     margin-left: 5px;
 } 
 
+/* Second row under video (subscribe, channel name etc.) */
+.channel-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130px;
+}
 
+.channel-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.channel-logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subs{
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+.channel-logo img{
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.circleCheck{
+    height: 14px;
+}
+
+.subscribe-btn{
+    color: #fff;
+    width: 150px;
+    height: 50%;
+    margin-left: auto;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #bd0000;
+}
+
+.video-info{
+    color: #fff;
+    padding-left: 60px;
+}
 
 /* Aside styling */
 
