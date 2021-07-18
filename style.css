@@ -37,7 +37,7 @@ nav{
     height: 100%;
 }
 
-span{
+.logo span{
     display: flex;
     color: #ffffff;
     font-size: 12px;
@@ -147,24 +147,57 @@ section{
     width: 50%;
 }
 
-.action-btns{
-    display: flex;
-    border: 1px solid greenyellow;
-    height: 100%;
-    width: 50%;
-}
+
 
 h1{
     color: #fff;
 
 }
 
-
-
-p{
+.title > p{
     margin-top: 10px;
     display: flex;
     color: #aaaaaa;
+}
+
+.action-btns{
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid greenyellow;
+    height: 100%;
+    width: 50%;
+}
+
+.like-btns{
+    border: 1px solid red;
+    height: 50%;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.like-btns button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.like-btns span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.like-btns > p{
+    color: #fff;
+}
+
+.like-btns i{
+    color: #aaaaaa;
+    font-size: 26px;
 }
 
 aside{
