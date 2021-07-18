@@ -32,24 +32,23 @@ nav{
 .logo{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 150px;
     height: 100%;
 }
 
 span{
     display: flex;
-    color: #fff;
+    color: #ffffff;
     font-size: 12px;
-    justify-content: space-between;
     width: 100px;
     align-items: center;
-    height: 85%;
+    height: 100%;
 }
 
 .logo button{
     height: 100%;
     width: 40px;
-    font-size: 20px;
     border: none;
     background: none;
     color: #fff;
@@ -87,7 +86,7 @@ i.fa-microphone {
 
 .searchbar input{
     border: none;
-    background: #181818;
+    background: #0f0f0f;
     color: #aaaaaa;
     padding-left: 10px;
     font-size: 16px;
@@ -100,9 +99,27 @@ i.fa-microphone {
 }
 
 .variousBtns{
-    width: 250px;
-    border: 1px solid aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
     height: 100%;
+}
+
+.variousBtns button{
+    border: none;
+    background: none;
+    height: 100%;
+}
+
+.profile{
+    border-radius: 50%;
+    height: 75%;
+}
+
+.fa-bell{
+    font-size: 18px;
+    color: white;
 }
 
 section{
@@ -112,6 +129,42 @@ section{
     border: 1px solid green;
     width: 731px;
     height: 1000px;
+}
+
+.video-btns{
+    display: flex;
+    border: 1px solid blue;
+    width: 100%;
+    height: 80px;
+}
+
+.title{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gold;
+    height: 100%;
+    width: 50%;
+}
+
+.action-btns{
+    display: flex;
+    border: 1px solid greenyellow;
+    height: 100%;
+    width: 50%;
+}
+
+h1{
+    color: #fff;
+
+}
+
+
+
+p{
+    margin-top: 10px;
+    display: flex;
+    color: #aaaaaa;
 }
 
 aside{
