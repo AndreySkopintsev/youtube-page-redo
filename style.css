@@ -310,6 +310,7 @@ aside{
     justify-content: space-around;
     height: 35px;
     padding-right: 30px;
+    margin-bottom: 10px;
 }
 
 .tag{
@@ -329,4 +330,65 @@ aside{
 .tag:hover{
     background: #5d5c5c;
     color: #fff;
+}
+
+/* Suggested videos */
+
+/* General styling */
+.suggested-section{
+    width: 100%;
+    border: 1px solid red;
+    height: 94px;
+}
+
+
+/* Single video styling */
+.suggested-video{
+    position: relative;
+    height: 100%;
+    width: 168px;
+    border: 1px solid blue;
+}
+
+.duration{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    background: rgba(5, 5, 5, 0.7);
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.thumbnail{
+    width: 168px;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+
+.overlay-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 2px;
+    background: rgba(5, 5, 5, 0.7);
+}
+
+.overlay-btn img{
+    height: 18px;
+    width: 18px;
+}
+
+.suggested-video:hover .overlay{
+    visibility: visible;
 }
