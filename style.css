@@ -332,7 +332,6 @@ h1{
 
 .single-comment{
     display: flex;
-    border: 1px solid red;
     width: 80%;
     height: 100px;
     margin-bottom: 20px;
@@ -350,7 +349,6 @@ h1{
 
 .like-dislike{
     display: flex;
-    border: 1px solid purple;
     width: 140px;
     justify-content: space-between;
     position: absolute;
